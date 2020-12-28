@@ -1,0 +1,712 @@
+<!doctype html>
+<htmlte lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="home.css"/>
+        
+    </head>
+
+<body  style="overflow-x: hidden;">
+    <div class="flex-container  navbar  fixed-top text-light "style="background-color:#00203FFF;opacity:1;overflow-x: hidden" >
+        <img src="#" alt="LOGO"/>
+        <ul class="list">
+            <li class="list1"><a href="index.html" >Home</a></li>
+            <li class="list1"><a href="about.html">About Us</a></li>
+            <li class="list1"><a href="terms.html">Terms</a></li>
+            <li class="list1"><a href="recuritment.html">Career</a></li>
+            <li class="list1"><a href="contactus.html">Contact Us</a></li>
+            <li class="col-lg-1 col-md-2 list1" style="border-width: 1px;border-radius:8px;background-color: #ADEFD1FF;box-shadow: 0px 0px 7px silver;"><a href="#" style="color: black;">Get A Quote</a></li>
+        </ul>
+    </div>
+    <div id="myNav" class="overlay" style="overflow: hidden">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">HOME</a>
+          <a href="about.html">About Us</a>
+          <a href="terms.html">Terms</a>
+          <a href="recuritment.html">Career</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+      </div>
+      <div class=" container-fluid smallnav text-light fixed-top" style="overflow: hidden;background-color: #00203FFF;">
+        <img src="logo" alt="logo" />
+        <span style="font-size:30px;cursor:pointer;float: right;padding: 1%;overflow: hidden" onclick="openNav()">&#9776;</span>
+      </div>
+      <div style="width:100%;overflow: hidden;">
+        <div class="img container-fluid" style="width:100%;overflow: hidden;position: relative;background-color: lightgray;"></div>
+
+
+<div class="upper2 " style="overflow: hidden;position: absolute;width: 100%">
+  <div class="row">
+    <div class="column" style="width: 48%;text-align: center;padding: 2%">
+           <p id="uppertextp" style="color: #00203FFF;font-family: Saab;font-style: italic;">
+                        India's No.1 Markplace for Professional Manpower Services.
+           </p>
+           <p  id="uppertextp2" style="color: #00203FFF;font-family: Sarai;"> 100% Happiness Guarantee !</p>
+  </div>
+  <div class="column ram"style="width: 48%;">
+      <select id="d" class="input"  list="city" placeholder="Delhi" style="box-shadow: 0px 0px 5px palegoldenrod ;margin-bottom: 4%;background-color: white">
+
+
+          <option value="Delhi">Delhi</option>
+          <option value="Noida">Noida</option>
+          <option value="Gaziabad">Gaziabad</option>
+          <option value="Gurugram">Gurugram</option>
+      </select>
+
+
+                        <input class="input" list="services" placeholder="Select A Service" style="box-shadow:0px 0px 5px palegoldenrod " >
+
+                                <datalist id="services">
+                                <option value="Baby Care">
+                                <option value="Patient Care">
+                                <option value="Senior Citizen Care">
+                                <option value="Maid Service">
+                                <option value="Domestic Help">
+                              <option value="Cook Service">
+                                </datalist>
+  </div>
+</div>
+</div>
+         <div class="container-fluid" style="overflow: hidden;overflow-y: hidden;background-color:#f4f4f4 ;">
+            <table class="container">
+                <tr class="row " style="display: inline-block;padding:0.3%;">
+                    <td style="text-align: center;">
+                    <a href="javascript:void(0)"  onclick="document.getElementById('toast').style.display='block'">
+                        <div >
+                            <img id="iconimg" src="images/COOK SERVICE.svg" alt="maid" />
+                        </div>
+                        <div >
+                            <p id="icontext" style="color:  #006B38FF;">
+                                Maid Service
+                            </p>
+                        </div>
+                    </a>
+                    </td>
+                    <td style="text-align: center;">
+                        <a href="javascript:void(0)"  onclick="document.getElementById('toast2').style.display='block'">
+                        <div>
+                            <img id="iconimg" src="images/DOMESTIC HELP copy.svg" alt="maid" />
+                        </div>
+                        <div>
+                            <p id="icontext" style="color:  #006B38FF;">
+                                Domestic Help
+                            </p>
+                        </div>
+                    </a>
+                    </td>
+                    <td style="text-align: center;">
+                        <a href="javascript:void(0)"  onclick="document.getElementById('toast3').style.display='block'">
+                        <div>
+                            <img id="iconimg" src="images/staff.svg" alt="maid" />
+                        </div>
+                        <div style="display: inline-block;">
+                            <p id="icontext" style="color:  #006B38FF;">
+                                Cook Service
+                            </p>
+                        </div>
+                    </a>
+                    </td>
+                    <td style="text-align: center;">
+                        <a href="javascript:void(0)"  onclick="document.getElementById('toast4').style.display='block'">
+                        <div>
+                            <img id="iconimg" src="images/PATIENT CARE copy.svg" alt="maid" />
+                        </div>
+                        <div>
+                            <p id="icontext" style="color:  #006B38FF;">
+                                Patient Care
+                            </p>
+                        </div>
+                    </a>
+                    </td>
+                    <td style="text-align: center;">
+                        <a href="javascript:void(0)"  onclick="document.getElementById('toast6').style.display='block'">
+                        <div>
+                            <img id="iconimg"src="images/BABY CARE.svg" alt="maid" />
+                        </div>
+                        <div>
+                            <p id="icontext" style="color:  #006B38FF;">
+                                Baby Care
+                            </p>
+                        </div>
+                    </a>
+                    </td>
+                    <td class="icon" style="text-align: center;">
+                        <a href="javascript:void(0)"  onclick="document.getElementById('toast5').style.display='block'">
+                        <div>
+                            <img id="iconimg" src="images/SENIOR CITIZEN copy.svg" alt="maid" />
+                        </div>
+                        <div>
+                            
+                            <p id="icontext" style="color:  #006B38FF;">
+                                Senior Citizen Care
+                            </p>
+                        </div>
+                    </a>
+                    </td>
+                </tr>
+            </table>
+         </div>
+         <div id="toast2" style="width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.7);padding-top:8%;z-index: 3;position: fixed;top: 0;display:none;">
+            <div class="container"style="width:90%;height:90%;background-color:white;padding:1%;border-radius:10px;overflow-y:auto;overflow-x: hidden">
+                <span class="close" onclick="document.getElementById('toast2').style.display='none'" style="position: fixed;display: block;margin-right: 0;margin-left:75%;z-index: 1;">&times;</span>
+                <div class="row"style="margin-top:3%;padding:2%">
+                    <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/domestic.jpeg" style="border-radius: 20px;margin-top: 3%;opacity: 1;width: 80%;">
+                    </div>
+                    <div class="column col-lg-6 col-md-6 col-sm-12" style="text-align: justify;margin-top: 3%;padding-right: 2%;">
+                        <h4>
+                            Domestic Help<small>(8,000 to 10,000)</small> 
+                        </h4>
+                        <p>
+                            We provide highly reliable and skilled domestic helpers who are trained enough to give best services in the domestic work. We offer well-trained houseboys, housekeepers, housemaids etc., who can help you in all types of domestic works like cooking, electricity works, dusting, cleaning, washing, garbage collection etc. All such works can be easily done by our proposed domestic helpers with perfection. They are trained to meet the expectation of clients successfully.
+                        </p>
+                    </div>
+                </div>
+                        <div>
+                            <caption ><h3>Our Charges</h3></caption>
+                <table style="width:100%;border: 5px solid white;text-align: center;">
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">No. of Hours</th>
+                      <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">You need to pay Us</th>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">1/2 Hours</td>
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 3000</td>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">4/6 Hours</td>
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 5000</td>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                        <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">8/10 Hours</td>
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 9000</td>
+                      </tr>
+                      <tr style="width:100%;border: 5px solid white;text-align: center;">
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">12/24 Hours</td>
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 15000</td>
+                      </tr>
+                  </table>
+                        </div>
+                        <div style="display: block;margin-left: auto;margin-right: auto;">
+                            <a href="booknow.html"><button class="btn btn-lg" style="background-color: coral;display: block;margin-left: auto;margin-right: auto;" > BooK Now</button></a>
+                        </div>
+                   
+            </div>
+          </div>
+          <div id="toast3" style="width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.7);padding-top:8%;z-index: 3;position: fixed;top: 0;display:none;">
+            <div class="container"style="width:90%;height:90%;background-color:white;padding:1%;border-radius:10px;overflow-y:auto;overflow-x: hidden">
+                <span class="close" onclick="document.getElementById('toast3').style.display='none'" style="position: fixed;display: block;margin-right: 0;margin-left:75%;z-index: 1;">&times;</span>
+                <div class="row"style="margin-top:3%;padding:2%">
+                    <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/cook.jpeg" style="border-radius: 20px;margin-top: 3%;opacity: 1;width: 80%;">
+                    </div>
+                    <div class="column col-lg-6 col-md-6 col-sm-12" style="text-align: justify;margin-top: 3%;padding-right: 2%;">
+                        <h4>
+                            Cook Services <small> (12,000 to 20,000)</small>
+                        </h4>
+                        <p>
+                            We offer best cooks for homes, as they are professionals in cooking vegetarian and non-vegetarian foods of all kinds. The cooks that we provide are skilled enough to cook food smartly and give a very healthy menu to the clients in breakfast, lunch, and dinner. Our offered cooks are instrumental in cooking nutritious food for patients comprising of a variety of dishes for food lovers. They cook deliciously food and take care of the health of all the people in the family. 
+                        </p>
+                    </div>
+                </div>
+                        <div>
+                            <caption ><h3>Our Charges</h3></caption>
+                <table style="width:100%;border: 5px solid white;text-align: center;">
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">No. of Hours</th>
+                      <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">You need to pay Us</th>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">1/2 Hours</td>
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 3000</td>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">4/6 Hours</td>
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 5000</td>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                        <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">8/10 Hours</td>
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 9000</td>
+                      </tr>
+                      <tr style="width:100%;border: 5px solid white;text-align: center;">
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">12/24 Hours</td>
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 15000</td>
+                      </tr>
+                  </table>
+                        </div>
+                        <div style="display: block;margin-left: auto;margin-right: auto;">
+                            <a href="booknow.html"><button class="btn btn-lg" style="background-color: coral;display: block;margin-left: auto;margin-right: auto;" > BooK Now</button></a>
+                        </div>
+                   
+            </div>
+          </div>
+          <div id="toast4" style="width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.7);padding-top:8%;z-index: 3;position: fixed;top: 0;display:none;">
+            <div class="container"style="width:90%;height:90%;background-color:white;padding:1%;border-radius:10px;overflow-y:auto;overflow-x: hidden">
+                <span class="close" onclick="document.getElementById('toast4').style.display='none'" style="position: fixed;display: block;margin-right: 0;margin-left:75%;z-index: 1;">&times;</span>
+                <div class="row"style="margin-top:3%;padding:2%">
+                    <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/patient.jpg" style="border-radius: 20px;margin-top: 3%;opacity: 1;width: 80%;">
+                    </div>
+                    <div class="column col-lg-6 col-md-6 col-sm-12" style="text-align: justify;margin-top: 3%;padding-right: 2%;">
+                        <h4>
+                            Patient Care Services<small> (15,000 to 20,000)</small>
+                        </h4>
+                        <p>
+                            Being a popular name in the industry, we provide reliable and trained patient care professionals. They are instrumental in giving a complete care to old people by serving them with a humble approach. The patient care specialists offered by us are skilled enough to take care of the patient in the best possible way. Whether the patient is suffering form severe injuries or is on bed rest, need a complete physical support for movement, our professionals perform all their duties & take care of the patient properly.
+                        </p>
+                    </div>
+                </div>
+                        <div>
+                            <caption ><h3>Our Charges</h3></caption>
+                <table style="width:100%;border: 5px solid white;text-align: center;">
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">No. of Hours</th>
+                      <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">You need to pay Us</th>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">1/2 Hours</td>
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 3000</td>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">4/6 Hours</td>
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 5000</td>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                        <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">8/10 Hours</td>
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 9000</td>
+                      </tr>
+                      <tr style="width:100%;border: 5px solid white;text-align: center;">
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">12/24 Hours</td>
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 15000</td>
+                      </tr>
+                  </table>
+                        </div>
+                        <div style="display: block;margin-left: auto;margin-right: auto;">
+                            <a href="booknow.html"><button class="btn btn-lg" style="background-color: coral;display: block;margin-left: auto;margin-right: auto;" > BooK Now</button></a>
+                        </div>
+                   
+            </div>
+          </div>
+          <div id="toast6" style="width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.7);padding-top:8%;z-index: 3;position: fixed;top: 0;display:none;">
+            <div class="container"style="width:90%;height:90%;background-color:white;padding:1%;border-radius:10px;overflow-y:auto;overflow-x: hidden">
+                <span class="close" onclick="document.getElementById('toast6').style.display='none'" style="position: fixed;display: block;margin-right: 0;margin-left:75%;z-index: 1;">&times;</span>
+                <div class="row"style="margin-top:3%;padding:2%">
+                    <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/baby.png" style="border-radius: 20px;margin-top: 3%;opacity: 1;width: 80%;">
+                    </div>
+                    <div class="column col-lg-6 col-md-6 col-sm-12" style="text-align: justify;margin-top: 3%;padding-right: 2%;">
+                        <h4>
+                            Baby Care Services <small> (15,000 to 20,000)</small>
+                        </h4>
+                        <p>
+                            We are one-stop-shop to avail highly talented baby care professionals for infants and babies. The baby care experts offered by us are well-guided to give ultimate care with lots of love to the children of all age groups. Customers can hire female baby care takers from us for giving complete care to their children. We ensure that our baby care staff will take care of all activities and physical health of the babies by serving them proper food, and handle them with affection and warmth. 
+                        </p>
+                    </div>
+                </div>
+                        <div>
+                            <caption ><h3>Our Charges</h3></caption>
+                <table style="width:100%;border: 5px solid white;text-align: center;">
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">No. of Hours</th>
+                      <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">You need to pay Us</th>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">1/2 Hours</td>
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 3000</td>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">4/6 Hours</td>
+                      <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 5000</td>
+                    </tr>
+                    <tr style="width:100%;border: 5px solid white;text-align: center;">
+                        <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">8/10 Hours</td>
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 9000</td>
+                      </tr>
+                      <tr style="width:100%;border: 5px solid white;text-align: center;">
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">12/24 Hours</td>
+                        <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 15000</td>
+                      </tr>
+                  </table>
+                        </div>
+                        <div style="display: block;margin-left: auto;margin-right: auto;">
+                            <a href="booknow.html"><button class="btn btn-lg" style="background-color: coral;display: block;margin-left: auto;margin-right: auto;" > BooK Now</button></a>
+                        </div>
+                   
+            </div>
+          </div>
+      <div id="toast" style="width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.9);padding-top:8%;z-index: 3;position: fixed;top: 0;display:none;">
+        <div class="container"style="width:90%;height:90%;background-color:white;padding:1%;border-radius:10px;overflow-y:auto;overflow-x: hidden">
+            <span class="close" onclick="document.getElementById('toast').style.display='none'" style="position: fixed;display: block;margin-right: 0;margin-left:75%;z-index: 1;">&times;</span>
+            <div class="row"style="margin-top:3%;padding:2%">
+                <div class="column col-lg-6 col-md-6 col-sm-12">
+                    <img src="images/maid.jpeg" style="border-radius: 20px;margin-top: 3%;opacity: 1;width: 80%;">
+                </div>
+                <div class="column col-lg-6 col-md-6 col-sm-12" style="text-align: justify;margin-top: 3%;padding-right: 2%;">
+                    <h4>
+                        Maid Services (8,000 to 10,000) 
+                    </h4>
+                    <p>
+                        We provide skilled and reliable maids for homes & offices. The maids offered by us are well-instructed to give best performance in their works like cleaning, dusting, washing, home care, cooking etc. They perform all the work at home or office with firm dedication. All our maids are directed to be honest towards their duties and give utmost care to home or property in the absence of owner. We ensure that all our maids are licensed and verified against any criminal background or flaw.
+                    </p>
+                </div>
+            </div>
+                    <div>
+                        <caption ><h3>Our Charges</h3></caption>
+            <table style="width:100%;border: 5px solid white;text-align: center;">
+                <tr style="width:100%;border: 5px solid white;text-align: center;">
+                  <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">No. of Hours</th>
+                  <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">You need to pay Us</th>
+                </tr>
+                <tr style="width:100%;border: 5px solid white;text-align: center;">
+                  <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">1/2 Hours</td>
+                  <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 3000</td>
+                </tr>
+                <tr style="width:100%;border: 5px solid white;text-align: center;">
+                  <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">4/6 Hours</td>
+                  <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 5000</td>
+                </tr>
+                <tr style="width:100%;border: 5px solid white;text-align: center;">
+                    <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">8/10 Hours</td>
+                    <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 9000</td>
+                  </tr>
+                  <tr style="width:100%;border: 5px solid white;text-align: center;">
+                    <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">12/24 Hours</td>
+                    <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 15000</td>
+                  </tr>
+              </table>
+                    </div>
+                    <div style="display: block;margin-left: auto;margin-right: auto;">
+                        <a href="booknow.html"><button class="btn btn-lg" style="background-color: coral;display: block;margin-left: auto;margin-right: auto;" > BooK Now</button></a>
+                    </div>
+               
+        </div>
+      </div>
+      <div id="toast5" style="width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.7);padding-top:8%;z-index: 3;position: fixed;top: 0;display:none;">
+        <div class="container"style="width:90%;height:90%;background-color:white;padding:1%;border-radius:10px;overflow-y:auto;overflow-x: hidden">
+            <span class="close" onclick="document.getElementById('toast5').style.display='none'" style="position: fixed;display: block;margin-right: 0;margin-left:75%;z-index: 1;">&times;</span>
+            <div class="row"style="margin-top:3%;padding:2%">
+                <div class="column col-lg-6 col-md-6 col-sm-12">
+                    <img src="images/senior.jpeg" style="border-radius: 20px;margin-top: 3%;opacity: 1;width: 80%;">
+                </div>
+                <div class="column col-lg-6 col-md-6 col-sm-12" style="text-align: justify;margin-top: 3%;padding-right: 2%;">
+                    <h4>
+                        Senior Citizen Care Services<small> (15,000 to 20,000)</small>
+                    </h4>
+                    <p>
+                        We are one-stop-shop to avail highly talented Senior Citizen care professionals . The Senior Citizen care experts offered by us are well-guided to give ultimate care with lots of love to the people. Customers can hire female baby care takers from us for giving complete care to their children. We ensure that our baby care staff will take care of all activities and physical health of the babies by serving them proper food, and handle them with affection and warmth. 
+                    </p>
+                </div>
+            </div>
+                    <div>
+                        <caption ><h3>Our Charges</h3></caption>
+            <table style="width:100%;border: 5px solid white;text-align: center;">
+                <tr style="width:100%;border: 5px solid white;text-align: center;">
+                  <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">No. of Hours</th>
+                  <th style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: aqua;">You need to pay Us</th>
+                </tr>
+                <tr style="width:100%;border: 5px solid white;text-align: center;">
+                  <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">1/2 Hours</td>
+                  <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 3000</td>
+                </tr>
+                <tr style="width:100%;border: 5px solid white;text-align: center;">
+                  <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">4/6 Hours</td>
+                  <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 5000</td>
+                </tr>
+                <tr style="width:100%;border: 5px solid white;text-align: center;">
+                    <td style="width:50%;border:5px solid white;text-align: center;padding: 1%;background-color: lightgray;">8/10 Hours</td>
+                    <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 9000</td>
+                  </tr>
+                  <tr style="width:100%;border: 5px solid white;text-align: center;">
+                    <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">12/24 Hours</td>
+                    <td style="width:50%;border: 5px solid white;text-align: center;padding: 1%;background-color: lightgray;">Rs. 15000</td>
+                  </tr>
+              </table>
+                    </div>
+                    <div style="display: block;margin-left: auto;margin-right: auto;">
+                        <a href="booknow.html"><button class="btn btn-lg" style="background-color: coral;display: block;margin-left: auto;margin-right: auto;" > BooK Now</button></a>
+                    </div>
+               
+        </div>
+      </div>
+         <div class="container offer" style="overflow: hidden;">
+            <img class="mySlides" src="images/cook.jpeg" alt="image1" style="margin-left: auto;margin-right: auto;display: block;">
+            <img class="mySlides" src="images/patient.jpg" alt="image2" style="margin-left: auto;margin-right: auto;display: block;">
+            <img class="mySlides" src="images/maid.jpeg" alt="image3" style="margin-left: auto;margin-right: auto;display: block;">
+         </div>
+          
+    <div class="container-fluid servicessback" style="overflow: hidden;background-attachment: fixed;background-size: cover;margin-top: 0.3%">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 " style="text-align: left;">
+                <h1 class="section-heading "style="margin-bottom:1%;color:">
+                    Our Servcies
+                </h1>
+            </div>
+        </div>
+        <div class="row grid-services flex-container"style="margin-left:auto;margin-right:auto;">
+            <div class="col-sm-6 col-md-4">
+                <div class="box-image-1" style="align-items: center;">
+                    <div class="image"style="border-radius:6px">
+                        <a href="services.html" title=""><img src="images/baby.png" alt="cook maid services" class="img-responsive" style="width: 100%;display: block;margin-left: auto;margin-right: auto;margin-top: 4%;margin-bottom: 5%;"></a>
+                    </div>
+                    <div class="description" >
+                        <h3 class="blok-title">Baby <br>Care</h3>
+                        <a href="services.html" title="" class="btn " id="button" style="margin-bottom: 1%;">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="box-image-1" style="align-items: center;">
+                    <div class="image"style="border-radius:6px">
+                        <a href="services.html" title=""><img src="images/maid.jpeg" alt="cook maid services" class="img-responsive" style="width: 97%;display: block;margin-left: auto;margin-right: auto;"></a>
+                    </div>
+                    <div class="description" >
+                        <h3 class="blok-title">Maid <br>Services</h3>
+                        <a href="services.html" title="" class="btn" id="button" style="margin-bottom: 1%;">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="box-image-1" style="align-items: center;">
+                    <div class="image"style="border-radius:6px">
+                        <a href="services.html" title=""><img src="images/patient.jpg" alt="patient care services" class="img-responsive" style="width: 92%;display: block;margin-left: auto;margin-right: auto;"></a>
+                    </div>
+                    <div class="description" >
+                        <h3 class="blok-title">Patient <br>Care</h3>
+                        <a href="services.html" title="" class="btn " id="button" style="margin-bottom: 1%;">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="box-image-1" style="align-items: center;">
+                    <div class="image"style="border-radius:6px">
+                        <a href="services.html" title=""><img src="images/senior.jpeg" alt="cook maid services" class="img-responsive" style="width: 100%;display: block;margin-left: auto;"></a>
+                    </div>
+                    <div class="description" >
+                        <h3 class="blok-title">Senior Citizen <br>Care</h3>
+                        <a href="services.html" title="" class="btn " id="button" style="margin-bottom: 1%;">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="box-image-1" style="align-items: center;">
+                    <div class="image"style="border-radius:6px">
+                        <a href="services.html" title=""><img src="images/domestic.jpeg" alt="cook maid services" class="img-responsive" style="width: 100%;display: block;margin-left: auto;margin-right: auto;"></a>
+                    </div>
+                    <div class="description" >
+                        <h3 class="blok-title">Domestic <br>Help</h3>
+                        <a href="services.html" title="" class="btn " id="button" style="margin-bottom: 1%;">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="box-image-1" style="align-items: center;">
+                    <div class="image"style="border-radius:6px">
+                        <a href="services.html" title=""><img src="images/cook.jpeg" alt="cook maid services" class="img-responsive" style="width: 100%;display: block;margin-left: auto;margin-right: auto;margin-top: 5%; margin-bottom: 5%;"></a>
+                    </div>
+                    <div class="description" >
+                        <h3 class="blok-title">Cook <br>Services</h3>
+                        <a href="services.html" title="" class="btn " id="button" style="margin-bottom: 1%;">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    
+     
+    <div class="container" >
+        <img class="mySlides1" src="images/cook.jpeg" alt="image1"style="margin-left: auto;margin-right: auto;display: block;">
+        <img class="mySlides1" src="images/patient.jpg" alt="image2" style="margin-left: auto;margin-right: auto;display: block;">
+        <img class="mySlides1" src="images/maid.jpeg" alt="image3" style="margin-left: auto;margin-right: auto;display: block;">
+     </div>
+     <div class="container-fluid col-sm-12 text-light " style="background-color: #F2AA4CFF;">
+        <div class="container">
+            <div class="global"style="text-align:center;padding:0.4%">
+                <h2 class="lasthead" style="color:white;font-family:'Segoe UI';padding-bottom: 2%">
+                    We're big on trust &amp; safety.</h2>
+            </div>
+            <table>
+                <tr class="row text-light" style="display: inline-block;">
+                    <td style="text-align: center;">
+                        <div>
+                            <img id="iconlast" src="images/name.png" alt="maid" />
+                        </div>
+                        <div>
+                            <p >
+                                <strong>Identity Check</strong>
+                            </p>
+                        </div>
+                    </td>
+                    <td style="text-align: center">
+                        
+                        <div>
+                            <img id="iconlast" src="images/document.png" alt="maid" />
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Document's Verification</strong>
+                            </p>
+                        </div>
+                    </td>
+                    <td style="text-align: center;">
+                        <div>
+                            <img id="iconlast" src="images/trading.png" alt="maid" />
+                        </div>
+                        <div style="display: inline-block;">
+                            <p>
+                                <strong>Training Session</strong>
+                            </p>
+                        </div>
+                                            </td>
+                    <td style="text-align: center;">
+                        
+                        <div>
+                            <img id="iconlast" src="images/meeting.png" alt="maid"/>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Personal Interview</strong>
+                            </p>
+                        </div>
+                    </td>
+                   
+                </tr>
+            </table>
+            </div>
+           
+        </div>
+     </div>
+      
+     <div class="container-fluid five column grid text-light" style="background-color:#00203FFF;overflow: hidden;padding: 2%;">
+        <div class="row">
+            <div class="column col-lg-3 col-md-3 col-sm-12" style="text-align: justify;font-size:16px;color: #ADEFD1FF;">
+                <div  style="text-align: center;margin-bottom: 3%">
+                    <h3>About MekService</h3>
+                </div>
+                <div>
+                   <p> MekService is the leading platform for connecting individuals looking for Manpower Services with top-equality ,pre-screened independent cleaners.</p>
+                   <p> With a Seamless 60-second booking process,Secure payment and a 100% happiness guarantee,MekServices is the easiest,most convenient way to book</p>
+                </div>
+                <div style="display: inline-block;">
+                    <i class="fab fa-facebook fa-3x"style="padding-right:6px;margin-right: 5px" ></i>
+                    <i class="fab fa-instagram fa-3x"style="padding-right:6px;margin-right: 5px" ></i>
+                    <i class="fab fa-twitter fa-3x"style="padding-right:6px;margin-right: 5px" ></i>
+                    <i class="fab fa-youtube fa-3x"style="padding-right:6px;margin-right: 5px" ></i>
+                </div>
+            </div>
+            <div class="column col-lg-3 col-md-3 col-sm-12 "style="color: #ADEFD1FF;text-align:center;">
+                <div class="lil1" style="text-align: center;margin-bottom: 3%">
+                    <h3>Locations</h3>
+                </div>
+                <div class="locations" >
+                    <a href="" style="color:#ADEFD1FF ;">Delhi</a>
+                        <a href="" style="color:#ADEFD1FF ;">Noida</a>
+                        <a href="" style="color:#ADEFD1FF ;">Gaziabad</a>
+                        <a href="" style="color:#ADEFD1FF ;">Gurugram</a>
+                </div>
+            </div>
+            <div class="column col-lg-3 col-md-3 col-sm-12 lil2"style="color: #ADEFD1FF;text-align:center;padding-bottom:2%">
+                <div  style="text-align: center;margin-bottom: 3%">
+                    <h3>Services</h3>
+                </div>
+                <div class="services1">
+                        <a href="services.html" style="color:#ADEFD1FF ;">Baby Care </a>
+                        <a href="services.html" style="color:#ADEFD1FF ;">Patient Care </a>
+                        <a href="services.html" style="color:#ADEFD1FF ;">Senior Citizen Care </a>
+                        <a href="services.html" style="color:#ADEFD1FF ;">Maid Service </a>
+                        <a href="services.html" style="color:#ADEFD1FF ;">Domestic Help </a>
+                        <a href="services.html" style="color:#ADEFD1FF ;">Cook Services </a>
+                        <br>
+                        <a href="booknow.html" style="color:#ADEFD1FF  ;"><button class="btn" style="background-color: #F2AA4CFF;color:#ADEFD1FF  ;padding-top: 2%">Book Now</button></a>
+
+                </div>
+            </div>
+            <div class="column col-lg-2 col-md-3 col-sm-12"style="text-align: center;color:#ADEFD1FF;">
+                <div  style="text-align: center;margin-bottom: 3%">
+                    <h3>Get In Touch</h3>
+                </div>
+            <div >
+                <p style="  display:block;color:#ADEFD1FF ;"> <i class="fa fa-mobile fa-1x" ></i> 8882357154</p>
+                <p  style="display:block;color:#ADEFD1FF ;">Arya Nagar</p>
+                <p  style="display:block;color:#ADEFD1FF ;">South Delhi (110047)</p>
+
+                
+        </div>
+        </div>
+</div>
+    </div>
+
+    <div class="footer  container-fluid text-light"style="overflow:auto;background-color:black" >
+        <p style="padding:1%">&copy; Copyrigth</p>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.display = "block";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.display = "none";
+        }
+        </script>
+    <script>
+        var myIndex = 0;
+        var myIndex1=0;
+        carousel();
+        carousel1();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        function carousel1() {
+          var i;
+          var x = document.getElementsByClassName("mySlides1");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex1++;
+          if (myIndex1 > x.length) {myIndex1 = 1}    
+          x[myIndex1-1].style.display = "block";  
+          setTimeout(carousel1, 3000); // Change image every 2 seconds
+        }
+        </script>
+     <script>
+       function  show(){
+           document.getElementById("content").style.display="block";
+       }
+     </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
